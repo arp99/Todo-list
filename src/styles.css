@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  width: 45vw;
+  margin: 0 auto;
+}
+.input-grp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+.input-grp input {
+  width: 65%;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.2rem;
+  letter-spacing: 0.1rem;
+  border: 2px solid #0f3460;
+  outline: none;
+}
+.input-grp button {
+  background: #e94560;
+  border: none;
+  box-shadow: 2px 2px 2px #7e0f22;
+  color: #ffffff;
+  letter-spacing: 0.2rem;
+  padding: 0.5rem;
+  outline: none;
+}
+.input-grp button:hover {
+  cursor: pointer;
+}
+.todo_container {
+  width: 100%;
+  background: #16213e;
+  color: #e94560;
+  box-shadow: 0 3px 6px #0f3460;
+}
+.todo-item {
+  box-shadow: 0 1px 0 #30475e;
+}
+p {
+  display: inline-block;
+  transition: 0.2s;
+}
+p:hover {
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.2rem;
+  background: #0f3460;
+  cursor: pointer;
+}
